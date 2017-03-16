@@ -262,6 +262,6 @@ function getRandomColor() {
       "900": "#263238"
     }
   ];
-  return Math.floor(Math.random() * colors.length);
+  return colors[Math.floor(Math.random() * colors.length)][400];
 }
 
