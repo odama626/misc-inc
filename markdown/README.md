@@ -6,7 +6,7 @@ for rendered markdown, put `.markdown-view` on container element
 
 for editing, put `.markdown-input` on container element
 
-Also, [adam-p](https://github.com/adam-p) has a pretty amazing reference [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+Also, [adam-p](https://github.com/adam-p) has a pretty amazing markdown syntax reference [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
 
 Using marked and want those wonderful checkboxes? use this wrapper function
 
