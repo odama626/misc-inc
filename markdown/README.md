@@ -11,7 +11,7 @@ Also, [adam-p](https://github.com/adam-p) has a pretty amazing markdown syntax r
 Using marked and want those wonderful checkboxes? use this wrapper function
 
 ```javascript
-markdownFormatter(text) {
+markdownFormatter(text) { // add class 'slick' below for custom checkbox style
   if (text) {
     var a = marked(text, {break: true});
     a = a.replace(/<a/g, '<a target="_blank"') // Open links in new tab
